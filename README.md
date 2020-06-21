@@ -4,6 +4,12 @@ This project uses <a href="Unsplash.com" > Unsplash.com </a> APIs.
 
 
 <p  float="left">
- <img margin=10 10 10 10 src="images/image.png" width="280" height="560">
- <img margin=10 10 10 10 src="images/sample.gif" width="280" height="560">
+ <img align="left" src="images/image.png" width="280" height="560">
+ <img align="center" src="images/sample.gif" width="280" height="560">
 </p>
+
+
+<h3> Create Unsplash.com Acount</h3>
+
+Please go to <a href="Unsplash.com" > Unsplash </a> and define a new app and then replace given Access Key to <mark>NetworkApi.java</mark> interface.
+
