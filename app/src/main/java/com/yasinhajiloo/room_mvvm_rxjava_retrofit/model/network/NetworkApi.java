@@ -11,7 +11,8 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 public interface NetworkApi {
-    String accessKey = "8fI6zwZjbaxcPULpJcKV5ZxAawpaX96B2ysTFhWoyjE";
+    //TODO : PLEASE CREATE UNSPALSH ACCOUNT AND FILL BELOW FIELD BY GIVEN ACCESS KEY
+    String accessKey = "";
 
     @GET("photos")
     Single<List<Photo>> getPhotoList(@Query("client_id") String accessKey);
