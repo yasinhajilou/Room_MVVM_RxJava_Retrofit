@@ -5,4 +5,5 @@ This project uses <a href="Unsplash.com" > Unsplash.com </a> APIs.
 
 <p  display: inline-block>
  <img src="images/image.png" width="280" height="560">
+ <img src="images/sample.gif" width="280" height="560">
 </p>
