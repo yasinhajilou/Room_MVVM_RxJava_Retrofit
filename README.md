@@ -13,3 +13,7 @@ This project uses <a href="Unsplash.com" > Unsplash.com </a> APIs.
 
 Please go to <a href="Unsplash.com" > Unsplash </a> and define a new app and then replace given Access Key to <mark>NetworkApi.java</mark> interface.
 
+<h2> how it works? </h2>
+<p  float="left">
+ <img align="left" src="images/diagrom.png" width="280" height="560">
+</p>
