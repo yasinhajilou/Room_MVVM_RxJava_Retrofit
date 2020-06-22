@@ -11,7 +11,7 @@ This project uses <a href="Unsplash.com" > Unsplash.com </a> APIs.
 
 <h3> Create Unsplash.com Account</h3>
 
-Please go to <a href="Unsplash.com" > Unsplash </a> and define a new app and then replace given Access Key to <mark>NetworkApi.java</mark> interface.
+Please go to <a href="Unsplash.com" > Unsplash </a> and define a new app and then replace given Access Key to <mark>NetworkApi.java</mark> interface field.
 
 
 <h3> The app has following packages: </h3>
