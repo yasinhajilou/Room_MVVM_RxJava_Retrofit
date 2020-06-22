@@ -13,7 +13,8 @@ This project uses <a href="Unsplash.com" > Unsplash.com </a> APIs.
 
 Please go to <a href="Unsplash.com" > Unsplash </a> and define a new app and then replace given Access Key to <mark>NetworkApi.java</mark> interface.
 
-<h2> how it works? </h2>
-<p  float="left">
- <img align="left" src="images/diagrom.jpg" width="280" height="560">
-</p>
+
+<h3> The app has following packages: </h3>
+data: It contains all the data accessing and manipulating components.
+view: Activity and Recycler Adapter class.
+viewmodel: ViewModel class with Livedata.
