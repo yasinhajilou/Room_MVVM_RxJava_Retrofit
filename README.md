@@ -22,15 +22,16 @@ view: Activity and Recycler Adapter class.
 viewmodel: ViewModel class with Livedata.
 
 
-#Dependencies and Libraries
-*Room
-*room-rxjava2
-*lifecycle-viewmodel
-*lifecycle-livedata
-*lifecycle-reactivestreams
-*Retrofit2
-*Retrofit2 converter-gson
-*Retrofit2 adapter-rxjava2
+# Dependencies and Libraries
+* Room
+* room-rxjava2
+* lifecycle-viewmodel
+* lifecycle-livedata
+* lifecycle-reactivestreams
+* Retrofit2
+* Retrofit2 converter-gson
+* Retrofit2 adapter-rxjava2
+* glide
 
 
 
