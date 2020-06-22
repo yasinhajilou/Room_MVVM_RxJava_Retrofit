@@ -19,11 +19,12 @@ import com.yasinhajiloo.room_mvvm_rxjava_retrofit.viewmodel.PhotoViewModel;
 public class MainActivity extends AppCompatActivity {
 
     private PhotoViewModel mPhotoViewModel;
+    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        com.yasinhajiloo.room_mvvm_rxjava_retrofit.databinding.ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         PhotoViewModel.Factory factory = new PhotoViewModel.Factory(getApplication());
@@ -72,5 +73,11 @@ public class MainActivity extends AppCompatActivity {
             mPhotoViewModel.deleteAll();
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        binding = null;
     }
 }
