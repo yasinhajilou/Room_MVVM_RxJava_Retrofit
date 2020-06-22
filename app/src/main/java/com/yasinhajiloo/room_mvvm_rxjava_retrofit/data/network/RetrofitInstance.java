@@ -1,4 +1,4 @@
-package com.yasinhajiloo.room_mvvm_rxjava_retrofit.network;
+package com.yasinhajiloo.room_mvvm_rxjava_retrofit.data.network;
 
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;

@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.yasinhajiloo.room_mvvm_rxjava_retrofit.R;
-import com.yasinhajiloo.room_mvvm_rxjava_retrofit.model.Photo;
+import com.yasinhajiloo.room_mvvm_rxjava_retrofit.data.Photo;
 
 import java.util.List;
 

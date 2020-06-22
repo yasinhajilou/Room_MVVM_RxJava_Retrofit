@@ -1,4 +1,4 @@
-package com.yasinhajiloo.room_mvvm_rxjava_retrofit.db;
+package com.yasinhajiloo.room_mvvm_rxjava_retrofit.data.db;
 
 import android.app.Application;
 
@@ -6,7 +6,7 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import com.yasinhajiloo.room_mvvm_rxjava_retrofit.model.Photo;
+import com.yasinhajiloo.room_mvvm_rxjava_retrofit.data.Photo;
 
 @Database(entities = {Photo.class}, version = 1, exportSchema = true)
 public abstract class RoomInstance extends RoomDatabase {

@@ -11,8 +11,8 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.yasinhajiloo.room_mvvm_rxjava_retrofit.model.Photo;
-import com.yasinhajiloo.room_mvvm_rxjava_retrofit.repository.PhotoRepository;
+import com.yasinhajiloo.room_mvvm_rxjava_retrofit.data.Photo;
+import com.yasinhajiloo.room_mvvm_rxjava_retrofit.data.repository.PhotoRepository;
 
 import java.util.List;
 

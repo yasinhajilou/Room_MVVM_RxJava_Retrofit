@@ -1,4 +1,4 @@
-package com.yasinhajiloo.room_mvvm_rxjava_retrofit.db;
+package com.yasinhajiloo.room_mvvm_rxjava_retrofit.data.db;
 
 import androidx.room.Dao;
 import androidx.room.Delete;
@@ -6,7 +6,7 @@ import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
-import com.yasinhajiloo.room_mvvm_rxjava_retrofit.model.Photo;
+import com.yasinhajiloo.room_mvvm_rxjava_retrofit.data.Photo;
 
 import java.util.List;
 

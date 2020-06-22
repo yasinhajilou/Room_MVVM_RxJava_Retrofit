@@ -1,6 +1,6 @@
-package com.yasinhajiloo.room_mvvm_rxjava_retrofit.network;
+package com.yasinhajiloo.room_mvvm_rxjava_retrofit.data.network;
 
-import com.yasinhajiloo.room_mvvm_rxjava_retrofit.model.Photo;
+import com.yasinhajiloo.room_mvvm_rxjava_retrofit.data.Photo;
 
 import java.util.List;
 

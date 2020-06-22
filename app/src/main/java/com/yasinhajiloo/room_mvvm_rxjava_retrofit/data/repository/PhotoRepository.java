@@ -1,13 +1,13 @@
-package com.yasinhajiloo.room_mvvm_rxjava_retrofit.repository;
+package com.yasinhajiloo.room_mvvm_rxjava_retrofit.data.repository;
 
 import android.app.Application;
 import android.util.Log;
 
-import com.yasinhajiloo.room_mvvm_rxjava_retrofit.model.Photo;
-import com.yasinhajiloo.room_mvvm_rxjava_retrofit.db.PhotoDao;
-import com.yasinhajiloo.room_mvvm_rxjava_retrofit.db.RoomInstance;
-import com.yasinhajiloo.room_mvvm_rxjava_retrofit.network.NetworkApi;
-import com.yasinhajiloo.room_mvvm_rxjava_retrofit.network.RetrofitInstance;
+import com.yasinhajiloo.room_mvvm_rxjava_retrofit.data.Photo;
+import com.yasinhajiloo.room_mvvm_rxjava_retrofit.data.db.PhotoDao;
+import com.yasinhajiloo.room_mvvm_rxjava_retrofit.data.db.RoomInstance;
+import com.yasinhajiloo.room_mvvm_rxjava_retrofit.data.network.NetworkApi;
+import com.yasinhajiloo.room_mvvm_rxjava_retrofit.data.network.RetrofitInstance;
 
 
 import java.util.List;
@@ -32,12 +32,7 @@ public class PhotoRepository {
         Log.d("TRACKER", "Repository getNetworkPhotos: ");
         return mNetworkApi.getPhotoList(NetworkApi.accessKey)
                 .subscribeOn(Schedulers.io())
-                .flatMap(new Function<List<Photo>, Single<List<Long>>>() {
-                    @Override
-                    public Single<List<Long>> apply(List<Photo> photos) throws Exception {
-                        return insertAll(photos);
-                    }
-                });
+                .flatMap((Function<List<Photo>, Single<List<Long>>>) this::insertAll);
     }
 
     public Single<List<Long>> insertAll(List<Photo> photos) {

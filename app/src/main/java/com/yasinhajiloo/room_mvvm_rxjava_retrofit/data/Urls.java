@@ -1,4 +1,4 @@
-package com.yasinhajiloo.room_mvvm_rxjava_retrofit.model;
+package com.yasinhajiloo.room_mvvm_rxjava_retrofit.data;
 
 import com.google.gson.annotations.SerializedName;
 
