@@ -15,8 +15,11 @@ Please go to <a href="Unsplash.com" > Unsplash </a> and define a new app and the
 
 
 <h3> The app has following packages: </h3>
+
 data: It contains all the data accessing and manipulating components.
+
 view: Activity and Recycler Adapter class.
+
 viewmodel: ViewModel class with Livedata.
 
 
