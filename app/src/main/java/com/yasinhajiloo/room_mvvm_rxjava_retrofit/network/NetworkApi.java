@@ -1,11 +1,9 @@
-package com.yasinhajiloo.room_mvvm_rxjava_retrofit.model.network;
+package com.yasinhajiloo.room_mvvm_rxjava_retrofit.network;
 
 import com.yasinhajiloo.room_mvvm_rxjava_retrofit.model.Photo;
 
 import java.util.List;
 
-import io.reactivex.Flowable;
-import io.reactivex.Observable;
 import io.reactivex.Single;
 import retrofit2.http.GET;
 import retrofit2.http.Query;

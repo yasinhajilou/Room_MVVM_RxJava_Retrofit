@@ -1,4 +1,4 @@
-package com.yasinhajiloo.room_mvvm_rxjava_retrofit.model.db;
+package com.yasinhajiloo.room_mvvm_rxjava_retrofit.db;
 
 import android.app.Application;
 

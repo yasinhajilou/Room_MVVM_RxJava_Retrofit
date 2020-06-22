@@ -1,13 +1,13 @@
-package com.yasinhajiloo.room_mvvm_rxjava_retrofit.model.repository;
+package com.yasinhajiloo.room_mvvm_rxjava_retrofit.repository;
 
 import android.app.Application;
 import android.util.Log;
 
 import com.yasinhajiloo.room_mvvm_rxjava_retrofit.model.Photo;
-import com.yasinhajiloo.room_mvvm_rxjava_retrofit.model.db.PhotoDao;
-import com.yasinhajiloo.room_mvvm_rxjava_retrofit.model.db.RoomInstance;
-import com.yasinhajiloo.room_mvvm_rxjava_retrofit.model.network.NetworkApi;
-import com.yasinhajiloo.room_mvvm_rxjava_retrofit.model.network.RetrofitInstance;
+import com.yasinhajiloo.room_mvvm_rxjava_retrofit.db.PhotoDao;
+import com.yasinhajiloo.room_mvvm_rxjava_retrofit.db.RoomInstance;
+import com.yasinhajiloo.room_mvvm_rxjava_retrofit.network.NetworkApi;
+import com.yasinhajiloo.room_mvvm_rxjava_retrofit.network.RetrofitInstance;
 
 
 import java.util.List;
